@@ -6,7 +6,11 @@ name: Build Golang project
 on:
   push:
     branches:
-      - main
+      - develop
+      - 'feat*'
+  pull_request:
+    types: [opened, reopened]
+      
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
