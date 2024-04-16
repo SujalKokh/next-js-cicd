@@ -7,7 +7,7 @@ on:
   push:
     branches:
       - develop
-      - 'feat*'
+      - 'feat/*'
   pull_request:
     types: [opened, reopened]
       
